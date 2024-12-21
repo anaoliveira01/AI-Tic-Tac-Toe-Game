@@ -1,0 +1,42 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	margin: 0;
+	background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	height: 100vh;
+  }
+  
+  h1 {
+	margin: 20px 0;
+  }
+  
+  #board {
+	display: grid;
+	grid-template-columns: repeat(3, 100px);
+	grid-template-rows: repeat(3, 100px);
+	gap: 5px;
+	margin-top: 20px; /* Add spacing below the title */
+  }
+
+  #scores {
+	margin-bottom: 20px;
+	font-size: 18px;
+  }  
+  
+  .cell {
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	border: 1px solid #000;
+	cursor: pointer;
+	background-color: #fff;
+  }
+  
+  
